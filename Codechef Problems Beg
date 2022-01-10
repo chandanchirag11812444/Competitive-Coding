@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int T;
+    cin>>T;
+    while(T--)
+    {    int sum=0;
+            int n;
+        cin>>n;
+        while(n!=0)
+        {   
+            sum=sum+n%10;//here we will get first digit 
+            n=n/10;//here we will get second digit
+            
+        }
+        cout<<sum<<endl;
+
+    }
+    return 0;
+}
